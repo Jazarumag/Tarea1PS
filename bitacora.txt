@@ -9,3 +9,6 @@
 2024/11/05: bryan - Ingreso fallido usuario/clave erróneo
 2024/11/05: zaruma - Ingreso exitoso al sistema
 2024/11/05: zaruma - Salida exitosa
+2024/11/05: zaruma - Ingreso exitoso al sistema
+2024/11/05: zaruma - Triángulo
+2024/11/05: zaruma - Salida exitosa
