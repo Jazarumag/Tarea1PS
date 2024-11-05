@@ -16,4 +16,7 @@ void cuboide();
 void cilindro();
 void esfera();
 void cono();
+
+char* pedir_user();
+char* pedir_con();
 #endif

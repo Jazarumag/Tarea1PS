@@ -2,6 +2,19 @@
 #include <stdlib.h>
 #include "headers/datos.h"
 #include "headers/calculos.h"
+
+char* pedir_user(){
+    static char usuario[50];
+    printf("Ingrese su usuario: ");
+    scanf("%s", usuario);
+    return usuario;
+}
+char* pedir_con(){
+    static char clave[50];
+    printf("Ingrese su clave: ");
+    scanf("%s", clave);
+    return clave;
+}
 void mostrar_menu_figuras(){
     printf("\nCalculadora Linux\nEscoge que figura quieres calcular:\n");
     printf("1. Triángulo\n2. Paralelogramo\n3. Cuadrado\n4. Rectángulo\n5. Rombo\n6. Trapecio\n7. Círculo\n8. Polígono Regular");
